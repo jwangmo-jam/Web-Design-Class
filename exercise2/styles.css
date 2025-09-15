@@ -1,0 +1,107 @@
+h1 {
+    color: rgb(232, 219, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin: 30px 0 30px 20px;
+    /* top right bottom left*/
+    padding: 10px 20px 30px 20px;
+   /* background-color: rgba(255, 255, 0, 0.5); */
+}
+
+h2 {
+    color: rgb(232, 219, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin: 30px 0 30px 20px;;
+    padding: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21;
+    color: rgb(232, 219, 132);
+    margin: 10px 0 20px 20px;
+    padding:10px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(45, 59, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    /* everything in the body will be this font */
+}
+
+b {
+    text-transform: uppercase;
+    color: rgb(43, 68, 255);
+    background-color: yellow;
+}
+
+.first {
+    background-color: rgba(39, 55, 24, 0.292);
+    font-size: 24px;
+    
+}
+
+.second {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.third {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.fourth {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.fifth {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+
+.sixth {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.seventh {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.eigth {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.ninth {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.tenth {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+
+/* dm-sans is google font name */
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* remember to always update the embed code in google font to the html doc */
+.ultra-regular {
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
