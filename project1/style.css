@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .section {
+    font-size: 18px;
+    margin: 20px;
+  }
+  
+  img {
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  
