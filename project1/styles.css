@@ -1,0 +1,105 @@
+/* ---------- GENERAL STYLES ---------- */
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color:rgb(236, 228, 156);
+  color:brown;
+}
+
+h1, h2, h3 {
+  font-family: 'Yeseva One', serif;
+  font-size: 250%;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color:lightblue;
+  color:dodgerblue;
+}
+
+section {
+  padding: 3rem 5%;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* ---------- HOKKAIDO SECTION ---------- */
+
+h2 {
+    color: maroon;
+} 
+#hokkaido .spot-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.spot {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.spot.reverse {
+  flex-direction: row-reverse;
+}
+
+.spot img {
+  width: 30%;
+  border-radius: 5px;
+  object-fit: cover; 
+}
+
+.spot .description {
+  width: 50%;
+}
+
+
+/* ---------- OSAKA SECTION ---------- */
+#osaka .osaka-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.video-container iframe {
+  border-radius: 10px;
+  border: none;
+}
+
+#osaka .description {
+  max-width: 300%;
+}
+
+/* ---------- KYOTO SECTION ---------- */
+#kyoto {
+  position: relative;
+}
+
+#kyoto .hover-heading {
+  display: inline-block; 
+  position: relative;
+  cursor: pointer;
+}
+
+.kyoto-content {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.kyoto-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  border-radius: 10px;
+}
+
+/* Hover effect to fade in image */
+.hover-heading:hover + .kyoto-content .kyoto-image {
+  opacity: 1;
+}

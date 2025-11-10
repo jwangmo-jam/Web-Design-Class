@@ -1,40 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Japan Travel Website</title>
-  
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  
-  <!-- Link to CSS file -->
-  <link rel="stylesheet" href="style.css">
+<html>
+    <head>
+        <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MY FUTURE TRIP TO JAPAN</title>
+
+    </head>
+
+<!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+
+ <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <header>
+    <h1>My Japan Bucket List</h1>
+  </header>
 
-  <p class="title">✨ Places I Want to Visit in Japan ✨</p>
 
-  <div class="section">
-    <p><b>Tokyo - Shibuya Crossing</b></p>
-    <img src="japan-images/shibuyanight.png" alt="Shibuya Crossing in Tokyo">
-  </div>
+   <!-- ===================== HOKKAIDO SECTION ===================== -->
+    <section id="hokkaido">
+      <h2>Hokkaido</h2>
 
-  <div class="section">
-    <p><b>Kyoto - Fushimi Inari Shrine</b></p>
-    <img src="japan-images/kyoto.png" alt="Fushimi Inari Shrine in Kyoto">
-  </div>
+      <div class="spot-container">
+        <!-- Image 1: Lake Toya -->
+        <div class="spot">
+          <img src="japan-images/laketoya.png" alt="Lake Toya">
+          <div class="description">
+            <h3>Lake Toya</h3>
+            <p>Lake Tōya feels like something out of a dream — calm, misty, and surrounded by soft mountains. The water never freezes, so even in winter it looks like a mirror reflecting the sky. I love how it's peaceful but still alive with hot springs and quiet little cafés nearby. It's the kind of place I'd bring a warm matcha latte and just watch the world slow down.</p>
+          </div>
+        </div>
 
-  <div class="section">
-    <p><b>Osaka - Street Food</b></p>
-    <img src="japan-images/dotonburi.png" alt="Osaka food stalls at Dotonbori">
-  </div>
+        <!-- Image 2: Sapporo Factory -->
+        <div class="spot reverse">
+          <div class="description">
+            <h3>Sapporo Factory</h3>
+            <p>Sapporo Factory sounds like such a cozy hidden gem — an old red-brick brewery turned into a shopping and café space. I'd love to wander under the glass atrium with a warm drink, especially when the snow falls outside. It has that perfect mix of history and modern charm that feels so peaceful yet alive. Definitely the kind of spot I'd spend hours exploring and people-watching.</p>
+          </div>
+          <img src="japan-images/sapporofactory.png" alt="Sapporo Factory">
+        </div>
+      </div>
+    </section>
 
-  <div class="section">
-    <p><b>Sapporo - Ramen</b></p>
-    <img src="japan-images/sapporo.png" alt="Sapporo miso ramen">
-  </div>
+ <!-- ===================== OSAKA SECTION ===================== -->
+    <section id="osaka">
+      <h2>Osaka</h2>
+      <div class="osaka-content">
+        <div class="video-container">
+          <!-- Replace the placeholder link with your actual YouTube embed -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eetaeTzWppU?si=e18H0aSUahzRpR5S&amp;start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div> 
+        <div class="description">
+          <h3>Vibrant Osaka</h3>
+          <p>Osaka has this vibrant, playful energy that I can't wait to dive into — bright lights, busy streets, and endless good food. I'd love to wander through Dotonbori at night, try takoyaki straight from a street stall, and maybe get lost in all the cute shops. The mix of modern city life and cozy local charm feels so fun and real. It's the kind of place where every corner probably smells amazing and makes you want to stay a little longer.</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- ===================== KYOTO SECTION ===================== -->
+    <section id="kyoto">
+      <h2 class="hover-heading">Kyoto</h2>
+      <div class="kyoto-content">
+        <p>Kyoto feels like stepping into a peaceful storybook — all soft light, ancient temples, and quiet paths lined with maple trees. I'd love to wear a yukata and stroll through the old streets of Gion, maybe stop for matcha and sweets along the way. The mix of tradition and calm beauty feels so grounding. It's the kind of place I'd visit to slow down, breathe, and just be present.</p>
+        <img src="japan-images/kyoto.png" alt="Kyoto" class="kyoto-image">
+      </div>
+    </section>
+  
 </body>
-</html>
